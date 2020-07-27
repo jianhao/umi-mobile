@@ -1,2 +1,15 @@
-# umi-mobile
-学习umi搭建react项目
+# umi project
+
+## Getting Started
+
+Install dependencies,
+
+```bash
+$ yarn
+```
+
+Start the dev server,
+
+```bash
+$ yarn start
+```
