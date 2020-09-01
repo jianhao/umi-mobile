@@ -1,8 +1,5 @@
-import { login } from '@/services/index'
-import { setViewportMeta, getQueryString } from './utils/utils'
-import NativeBridge from './utils/NativeBridge'
+import { setViewportMeta } from './utils/utils'
 
-NativeBridge.init()
 setViewportMeta()
 window.routerBase = '/kunkka/'
 
@@ -16,7 +13,5 @@ export const dva = {
 }
 
 export async function render(oldRender) {
-  const sessionId = getQueryString('sessionId')
-  await login({ sessionId })
   oldRender()
 }

@@ -6,8 +6,7 @@ import theme from './config/theme'
 export default defineConfig({
   proxy: {
     '/api': {
-      // target: 'https://faw-pre.maihaoche.com',
-      target: 'https://faw-liberate-o.maihaoche.net',
+      target: 'https://XXX.net',
       changeOrigin: true,
     },
   },
