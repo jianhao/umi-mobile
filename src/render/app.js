@@ -1,7 +1,7 @@
 import { setViewportMeta } from './utils/utils'
 
 setViewportMeta()
-window.routerBase = '/kunkka/'
+// window.routerBase = '/kunkka/'
 
 // 配置 dva 创建时的参数 , 参见：https://dvajs.com/api/#app-dva-opts，可以捕获 effects 和 subscriptions 中的错误
 export const dva = {
