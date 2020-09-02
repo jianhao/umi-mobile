@@ -1,7 +1,7 @@
 export default [
   {
     path: '/',
-    component: '@/layouts/index',
+    component: '../layouts/index',
     routes: [
       { path: '/', redirect: '/index' },
       {

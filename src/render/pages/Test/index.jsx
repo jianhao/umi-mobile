@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/accessible-emoji */
 import React, { memo, useEffect } from 'react'
 import { connect } from 'umi'
 
@@ -20,7 +21,7 @@ export default connect(({ customerManage, loading }) => ({
 
     return (
       <div className={styles.customerManage}>
-        <h1>hello Umi3</h1>
+        <h2> I am already a mature page 👻</h2>
       </div>
     )
   }),
