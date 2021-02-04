@@ -6,7 +6,7 @@ export default [
       { path: '/', redirect: '/index' },
       {
         path: '/index',
-        title: '客户管理',
+        title: '客户管理1',
         component: './Test',
       },
       // { component: './404' },
