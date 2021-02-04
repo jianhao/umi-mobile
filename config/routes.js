@@ -7,7 +7,7 @@ export default [
       {
         path: '/index',
         title: '客户管理1',
-        component: './Test',
+        component: './Test1',
       },
       // { component: './404' },
     ],
