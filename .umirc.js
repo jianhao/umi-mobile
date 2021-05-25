@@ -6,7 +6,7 @@ import theme from './config/theme'
 export default defineConfig({
   proxy: {
     '/api': {
-      target: 'https://XXX.net',
+      target: 'https://time.geekbang.org',
       changeOrigin: true,
     },
   },
